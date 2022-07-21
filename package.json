@@ -1,0 +1,26 @@
+{
+  "name": "scrap-walmart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bot": "node index",
+    "dev": "nodemon index",
+    "manual-torta": "TIPO=login node index"
+  },
+  "keywords": [],
+  "author": "Miguel Alvarez <miguel.fullstack@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "colors": "1.4.0",
+    "dotenv": "^16.0.1",
+    "puppeteer": "^13.4.1",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0",
+    "user-agents": "^1.0.1082"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.19"
+  }
+}
